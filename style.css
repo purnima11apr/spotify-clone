@@ -2,8 +2,12 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'DM Sans', sans-serif;
+  font-family: Circular Std;
+ 
 
+ }
+ body{
+  
  }
  
 
@@ -18,7 +22,7 @@
 
 .sidebar {
   width: 30%;
-  height: 132%;
+  height:600px;
   background-color: rgba(0, 0, 0, 1);
   color: white;
   overflow-y: scroll;
@@ -43,7 +47,7 @@
   border-radius: 4px;
 }
 .nav:hover,
-.my-row:hover,
+.my-row:hover,.user:hover,.arrow>img:hover,
 .installBtn:hover,.card:hover,.my-card:hover {
   background-color: rgb(60, 64, 67);
   cursor: pointer;
@@ -70,7 +74,7 @@
   background-color: rgba(40, 40, 40, 1);
   color: white;
   overflow-y: scroll;
-  height:fit-content
+  height:615px;
 }
 .profile {
   width: 100%;
@@ -173,6 +177,13 @@
     color: white;
     width: 100%;
 }
+
+input[type='range']{
+  accent-color:  #28b60c;
+}
+  
+
+
 .laptop{
     flex:0;
     background-color: rgba(30, 215, 96, 1);
@@ -195,15 +206,45 @@
 
 .sidebar2{
   width: 18%;
-  height: 120%;
+  height:710px;
   background-color: rgba(0, 0, 0, 1);
   color: white;
   overflow-y: scroll;
+  
 }
 
 .side-playlist{
   border-bottom: 1px solid rgba(40, 40, 40, 1);
 }
+
+.main-content2{
+  
+  background: linear-gradient(180deg, #90AEA7 0%, #000000 65.7%);
+  overflow-y: scroll;
+  height: 660px;
+  color:white;
+  overflow-x: hidden;
+}
+
+.pop{
+  height: 50%;
+  width: 100vw;
+}
+
+.lorem>h1{
+  font-family: Circular Std;
+  font-size: 80px;
+  font-weight: 800;
+ 
+
+  
+}
+
+.opacity{
+  opacity:0.3;
+}
+
+
 
 .bottom2{
   height: 60px;
@@ -213,6 +254,34 @@
   display: flex;
   flex-direction:column;
 }
+
+.song{
+  height: 50px;
+  padding-top: 50px;
+
+}
+
+.singer{
+  margin-left: -75px;
+  padding-top: 30px;
+  font-weight: 100;
+  font-size: small;
+}
+
+.song:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.title{
+  opacity:0.5;
+  margin-top: -28px;
+}
+
+
+
+
+
 
 
 
