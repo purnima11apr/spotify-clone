@@ -279,6 +279,104 @@ input[type='range']{
 }
 
 
+@media (max-width: 767px) {
+  .my-container {
+    flex-direction: column-reverse; 
+  }
+  .logo , .laptop, .volume , .lower>p, .button , .green-heart
+  ,.middle,.last , .row>.icon , .row>.installBtn ,.my-row>p 
+  {
+    display:none;
+  }
+
+  .bottom , .bottom2{
+    position:fixed;
+    bottom: 0;
+   
+ }
+
+ .play{
+  
+  padding-left: 50px;
+ }
+
+ .music-player{
+  padding-left: 30px;
+ 
+ }
+
+ .playing-song{
+  padding-inline: 15px;
+  padding-bottom: 10px;
+ }
+
+ .sidebar,.sidebar2{
+  position: fixed;
+  top:0;
+  height: 10%;
+  width: 100%;
+  overflow-y: hidden;
+  margin-inline: 1px;
+  object-fit: cover;
+
+ }
+ 
+ .home {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.main-content{
+  height: 800px;
+  margin-bottom: -35px;
+  margin-left: -50px;
+  overflow-x: hidden;
+  display: block;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.goodmorning{
+  width: 300px;
+  margin-left: 90px;
+}
+
+
+.playlist {
+  display:flex;
+  height: 30%;
+  width: 100%;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  margin-left: -8px;
+  overflow-x: scroll;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+ 
+
+  
+}
+   
+
+ 
+
+ 
+
+
+
+
 
 
 
